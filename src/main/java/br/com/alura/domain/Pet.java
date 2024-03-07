@@ -18,6 +18,9 @@ public class Pet {
         this.cor = cor;
     }
 
+    public Pet() {
+    }
+
     public Long getId() {
         return id;
     }

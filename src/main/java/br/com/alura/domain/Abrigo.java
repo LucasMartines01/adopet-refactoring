@@ -5,11 +5,15 @@ public class Abrigo {
     private String nome;
     private String telefone;
     private String email;
+    private Pet[] pets;
 
     public Abrigo(String nome, String telefone, String email) {
         this.nome = nome;
         this.telefone = telefone;
         this.email = email;
+    }
+
+    public Abrigo() {
     }
 
     public Long getId() {
@@ -42,5 +46,13 @@ public class Abrigo {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Pet[] getPets() {
+        return pets;
+    }
+
+    public void setPets(Pet[] pets) {
+        this.pets = pets;
     }
 }
